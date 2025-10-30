@@ -36,19 +36,19 @@ Participants should review the [Assignment Submission Guide](https://github.com/
 
 There are two assignments (one per week) in this module:
 
-1. [Anagram Checker](https://github.com/UofT-DSI/python/blob/main/02_activities/assignments/assignment_1.ipynb): Due **Sunday August 24 at 11:59 PM**
-2. [Efficacy Analysis of a Hypothetical Arthritis Drug](https://github.com/UofT-DSI/python/blob/main/02_activities/assignments/assignment_2.ipynb): Due **Sunday August 31 at 11:59 PM**
+1. [Anagram Checker](https://github.com/UofT-DSI/python/blob/main/02_activities/assignments/assignment_1.ipynb): Due **Monday October 20 at 11:59 PM**
+2. [Efficacy Analysis of a Hypothetical Arthritis Drug](https://github.com/UofT-DSI/python/blob/main/02_activities/assignments/assignment_2.ipynb): Due **Monday October 27 at 11:59 PM**
 
 ## Contacts
 
-**Questions can be submitted to the _#cohort-7-help_ channel on Slack**
+**Questions can be submitted to the _#dc2-help_ channel on Slack**
 
 * Technical Facilitator: 
   * **Kaylie Lau** (She/Her): kaylie.lau@mail.utoronto.ca
 * Learning Support Staff: 
   * **Julia Gallucci** (She/Her): julia.gallucci@mail.utoronto.ca
-  * **Edward Chen**: edwardty.chen@utoronto.ca
-  * **Xindi Zhang**: xindi.zhang@mail.utoronto.ca
+  * **Tianyi Liu**: tianyi@psi.toronto.edu
+  * **Dmytro Bonislavskyi**: dmytro.bonislavskyi@gmail.com
 
 ## Delivery of the Learning Module
 
@@ -62,10 +62,11 @@ Participants are encouraged to engage actively during the learning module. They 
 
 ## Schedule
 
-||Tuesday|Wednesday|Thursday|Friday|Saturday|
-|---|---|---|---|---|---|
-|Week 1|Live Learning Session 1 (Introduction, Data Types, Error)|Live Learning Session 2 (Functions, Strings, Converting Types, Input)|Live Learning Session 3 (Control Flow)|Work Period 1|Work Period 2|
-|Week 2| Live Learning Session 4 (Reading/Writing, Object Oriented Programming)|Live Learning Session 5 (`numPy`)|Case Study|Work Period 3|Work Period 4|
+||Tuesday|Thursday|Friday|
+|---|---|---|---|
+|Week 1|Live Learning Session 1 (Introduction, Data Types, Error)|Live Learning Session 2 (Functions, Strings, Converting Types, Input)|Work Period 1|
+|Week 2|Live Learning Session 3 (Control Flow) | Live Learning Session 4 (Reading/Writing, Object Oriented Programming)|Work Period 2|
+|Week 3|Live Learning Session 5 (`numPy`)|
 
 While Testing, `pandas`, Visualization, and APIs are not covered in this course, you are encouraged to explore the slides at your own pace to deepen your understanding.
  
@@ -75,7 +76,7 @@ While Testing, `pandas`, Visualization, and APIs are not covered in this course,
 * Participants are encouraged to ask questions, and collaborate with others to enhance their learning experience.
 * Participants must have a computer and an internet connection to participate in online activities.
 * Participants must not use generative AI such as ChatGPT to generate code in order to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
-* We expect participants to have completed the instructions mentioned in the [onboarding repo](https://github.com/UofT-DSI/onboarding/).
+* We expect participants to have completed the instructions mentioned in the [onboarding repo](https://github.com/UofT-DSI/onboarding/blob/main/environment_setup/README.md).
 * We encourage participants to default to having their camera on at all times, and turning the camera off only as needed. This will greatly enhance the learning experience for all participants and provides real-time feedback for the instructional team. 
 
 ## Resources
@@ -112,6 +113,8 @@ Feel free to use the following as resources:
 ├── 05_src/data
 ├── .gitignore
 ├── LICENSE
+├── SETUP.md
+├── pyproject.toml
 └── README.md
 ```
 
@@ -123,6 +126,8 @@ Feel free to use the following as resources:
 * **src/data**: Source code, databases, logs, and required dependencies (requirements.txt) needed during the module.
 * **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
 * **LICENSE**: The license for this repository.
-* **README**: This file.
+* **SETUP.md**: Contains the steps required to set up this repo for the module.
+* **pyproject.toml**: Tells Python which packages this repo needs to run.  
+* **README.md**: This file.
 
 
